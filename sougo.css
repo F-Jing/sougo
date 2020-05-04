@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 720px;
+}
+.page-header {
+    height: 24px;
+}
+
+.page-header a:not(.log-in):hover {
+    color: #ff5a34;
+}
+
+.head-body {
+    height: 24px;
+    width: 100%;
+    font-size: 0px;
+    margin: 0 auto;
+}
+
+.left {
+    padding: 11px 0px;
+    height: 24px;
+    width: 60%;
+    min-width: 560px;
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.left ul li {
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 24px;
+}
+
+.triangle{
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid rgba(0, 0, 0, 0.75);
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+.left ul li a {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.left ul li:nth-child(2) {
+    font-weight: 700;
+}
+
+.left .web-page {
+    color: #ff5a34;
+}
+
+.right {
+    width: 40%;
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: bottom;
+}
+
+.right {
+    line-height: 10px;
+    text-align: right;
+    padding: 11px 0px;
+}
+
+.right ul li {
+    display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+    .right {
+        display: none;
+    }
+}
+
+.right ul li a {
+    color: rgba(0, 0, 0, .75);
+}
+
+.right .line {
+    width: 1px;
+    height: 8px;
+    border-left: 1px solid #E7E7E7;
+    margin: 5px 20px 0px;
+
+}
+
+.right ul li:nth-last-child(1) {
+    padding: 7px 12px;
+    border-radius: 2px;
+    background-color: #ff5a34;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.right .log-in {
+    color: snow;
+}
+
+ul li img {
+    height: 16px;
+    width: 16px;
+}
+
+/* page-mainer部分 */
+.logo-container {
+    text-align: center;
+    padding-top: 180px;
+}
+
+.search {
+    width: 810px;
+    height: 44px;
+    padding: 0px 0px 0px 10px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    font-size: 0px;
+    margin: 0 auto;
+}
+
+.search-left .search-container{
+    display: inline-block;
+    width: 561px;
+    height: 18px;
+    padding-right: 95px;
+    margin: 12px 0px;
+    border: 0px;
+    vertical-align: top;
+}
+.voice{
+    display: inline-block;
+}
+.search-left .voice>img{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 14px 16px;
+    opacity: 0.5;
+}
+.search-left .voice>img:hover{
+    cursor: pointer;
+}
+
+.search-left{
+    display: inline-block;
+}
+.search-right{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 0px;
+    width: 104px;
+    height: 44px;
+    cursor: pointer;
+}
+.search-line{
+    display: inline-block;
+    height: 45px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0px;
+    padding: 0px;
+}
+.search-right .submit-btn{
+    display: inline-block;
+    font-size: 16px;
+    border: 0px;
+    letter-spacing: normal;
+    background-color: transparent;
+    vertical-align: top;
+    margin: 12px 0px;
+    cursor: pointer;
+}
+/* page-footer部分 */
+.page-footer{
+    text-align: center;
+    width: 100%;
+    height: 510px;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.footer-line-a, .footer-line-b{
+    width: 0px;
+    height: 12px;
+    border-left: 1px solid #E7E7E7;
+    margin: 5px 10px 0px;
+}
+
+.qrcode .qrcode-logo{
+    height: 105px;
+    width: 105px;
+    padding: 5px;
+    border: 1px solid #f1f1f1;
+}
+.qrcode .qrcode-container{
+    font-size: 13px;
+    color: rgba(0, 0, 0, .75);
+    line-height: 22px;
+    padding: 1px 0px 0px;
+    margin: 0px 0px 15px;
+    font-weight: 700;
+    font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;;
+}
+.page-footer{
+    font-size: 12px;
+    line-height: 22px;
+    clear: rgba(0,0,0,.7);
+    font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;;
+}
+.link-a, .page-footer-c, .page-footer-d{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    line-height: 22px;
+    font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;
+}
+.link-a:hover{
+    color: rgb(0, 0, 0);
+}
